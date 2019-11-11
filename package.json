@@ -1,0 +1,26 @@
+{
+  "name": "demo_html",
+  "version": "1.0.0",
+  "description": "Landing a demo page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css",
+    "devserver": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geogeorgiou/demo_html.git"
+  },
+  "author": "geogeorgiou",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/geogeorgiou/demo_html/issues"
+  },
+  "homepage": "https://github.com/geogeorgiou/demo_html#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
